@@ -55,7 +55,7 @@ import org.ipvp.canvas.type.MenuHolder;
  */
 public final class MenuFunctionListener implements Listener {
 
-    @EventHandler(ignoreCancelled = true, priority = EventPriority.HIGH)
+    @EventHandler(priority = EventPriority.HIGH)
     public void handleGuiDrag(InventoryDragEvent event) {
         InventoryView view = event.getView();
         Inventory top = view.getTopInventory();
@@ -86,7 +86,7 @@ public final class MenuFunctionListener implements Listener {
         }
     }
     
-    @EventHandler(ignoreCancelled = true, priority = EventPriority.HIGH)
+    @EventHandler(priority = EventPriority.HIGH)
     public void handleGuiClick(InventoryClickEvent event) {
         InventoryView view = event.getView();
         Inventory top = view.getTopInventory();
