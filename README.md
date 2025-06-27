@@ -1,4 +1,6 @@
-# canvas [![Build Status](https://travis-ci.org/IPVP-MC/canvas.svg?branch=master)](https://travis-ci.org/IPVP-MC/canvas)
+# canvas
+
+[Download builds from our maven repo](https://mvn.alps-bte.com/#browse/browse:alps-canvas:com%2Falpsbte%2Fcanvas).
 
 A highly advanced and effective inventory management library for Bukkit plugins. The primary goal of canvas is to enable creation of elegant inventory systems without the quirks of existing libraries.
 
