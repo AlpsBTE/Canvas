@@ -111,6 +111,7 @@ public final class MenuFunctionListener implements Listener {
                 // the safe side.
                 case DROP_ALL_CURSOR:
                 case DROP_ONE_CURSOR:
+                case PLACE_FROM_BUNDLE:
                     event.setResult(Event.Result.DENY);
                     if (menu.getCursorDropHandler().isPresent()) {
                         CursorDropInformation dropInformation = new CursorDropInformation(action, event.getClick(),
@@ -136,6 +137,12 @@ public final class MenuFunctionListener implements Listener {
                 case PICKUP_HALF:
                 case PICKUP_ONE:
                 case PICKUP_SOME:
+                case PICKUP_ALL_INTO_BUNDLE:
+                case PICKUP_SOME_INTO_BUNDLE:
+                case PLACE_SOME_INTO_BUNDLE:
+                case PLACE_ALL_INTO_BUNDLE:
+                case CLONE_STACK:
+                case PICKUP_FROM_BUNDLE:
                     // Fall through
                 
                 // Cases where the item might be being inserted into a Slot in the Menu
