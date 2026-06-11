@@ -50,6 +50,9 @@ public class BinaryMask implements Mask {
     private final List<Integer> mask;
     private final SlotSettings settings;
 
+    public static final String EMPTY_PATTERN = "000000000";
+    public static final String FULL_PATTERN = "111111111";
+
     protected BinaryMask(Menu.Dimension dimension, List<Integer> mask, SlotSettings settings) {
         this.dimension = dimension;
         this.mask = Collections.unmodifiableList(mask);

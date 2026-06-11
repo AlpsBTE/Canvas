@@ -1,8 +1,9 @@
 # canvas
 
-[Download builds from our maven repo](https://mvn.alps-bte.com/#browse/browse:alps-canvas:com%2Falpsbte%2Fcanvas).
+[Download builds from our maven repo](https://mvn.alps-bte.com/#browse/browse:alps-bte:com%2Falpsbte%2Fcanvas).
 
 A highly advanced and effective inventory management library for Bukkit plugins. The primary goal of canvas is to enable creation of elegant inventory systems without the quirks of existing libraries.
+This is a Updated Fork.
 
 ## Feature Overview
 * [Menus](#menus) - the basics of GUI creation
@@ -26,7 +27,7 @@ canvas is integrated into plugins through the use of Maven.
 
 Then use the following command to install canvas to your local maven repository
 ```
-git clone https://github.com/IPVP-MC/canvas.git
+https://github.com/AlpsBTE/Canvas.git
 cd canvas/
 mvn clean install
 ```
@@ -34,10 +35,10 @@ mvn clean install
 You will now be able to add canvas as a dependency in your pom.xml files with the following
 ```xml
 <dependency>
-    <groupId>org.ipvp</groupId>
-    <artifactId>canvas</artifactId>
-    <version>1.7.0-SNAPSHOT</version>
-    <scope>compile</scope>
+  <groupId>com.alpsbte</groupId>
+  <artifactId>canvas</artifactId>
+  <version>1.3.1</version>
+  <scope>compile</scope>
 </dependency>
 ```
 
